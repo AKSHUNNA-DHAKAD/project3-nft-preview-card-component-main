@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        background-color: hsl(217, 54%, 11%);
+        font-family: "Outfit";
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+
+      }
+      
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        display: flex;
+         justify-content: center; 
+        background-color: hsl(217, 54%, 11%);
+      
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      .container {
+        width: 350px;
+        height: 590px;
+        /* border: 5px solid black; */
+        /* padding: 1rem; */
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 20px;
+        box-shadow: 10px 10px hsl(217, 54%, 11%);
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center; */
+      }
+      .image {
+        width: 300px;
+        height: 300px;
+        /* border: 5px solid black; */
+        border-radius: 15px;
+        margin: 1rem auto;
+      }
+      .image img {
+        width: 300px;
+        height: 300px;
+        border-radius: 12px;
+        cursor: pointer;
+      }
+    
+      .heading {
+        color: white;
+        /* margin-right: 700px; */
+        margin-left: 0;
+        font-weight: 600;
+        text-align: left;
+        margin-left: 25px;
+      }
+      .heading:hover {
+        color: cyan;
+        cursor: pointer;
+      }
+      .para {
+        color: rgba(211, 211, 211, 0.381);
+        font-size: 18px;
+        text-align: left;
+        padding-left: 25px;
+      }
+      .icon {
+        display: flex;
+        color: cyan;
+        font-weight: 700;
+        padding-left: 25px;
+      }
+      .icon2 {
+        color: lightslategray;
+        display: flex;
+         padding-left: 120px; 
+        font-size: 15px;
+    
+      }
+      .credit {
+        color: white;
+        display: flex;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 18px;
+        align-items: center;
+      }
+
+      .credit img {
+        display: flex;
+        height: 40px;
+        border-radius: 50%;
+        border: solid white;
+      
+        
+      }
+      .credit .creation {
+        display: flex;
+        color: lightslategray;
+        font-size: 15px;
+        padding-left: 20px;
+      }
+      .credit .creation2 {
+        font-size: 15px;
+        
+      }
+      .credit .creation2:hover {
+        color: cyan;
+        cursor: pointer;
+      }
+      .heading2 {
+        margin-left: 10px;
+        font-size: 15px;
+      }
+      .heading3 {
+        margin-left: 5px;
+      }
+      .hrt {
+        border-top: 1px hsl(215, 32%, 27%);
+        margin-right: 25px;
+        margin-left: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Equilibrium #3429
+
+  Our Equilibrium collection promotes balance and calm.
+
+  0.041 ETH
+  3 days left
+  
+  Creation of Jules Wyvern -->
+
+    <div class="attribution">
+      <!-- Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. -->
+      <div class="container">
+        <div class="image"><img src="./images/image-equilibrium.jpg" /></div>
+        <h1 class="heading">Equilibrium#3249</h1>
+        <p class="para">Our Equilibrium collection promotes balance and calm</p>
+        <div class="icon">
+          <img src="./images/icon-ethereum.svg" />
+          <i class="heading2">0.041 ETH</i>
+          <div>
+            <i class="icon2"
+              ><img src="./images/icon-clock.svg" />
+              <i class="heading3">3 days left</i></i
+            >
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr class="hrt">
+
+        <div class="credit">
+          <img src="./images/image-avatar.png" alt=""/><i class="creation"
+            >Creation of</i
+          ><i class="creation2">Jules Wyvren</i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
