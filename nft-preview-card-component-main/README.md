@@ -31,13 +31,9 @@ Users should be able to:
 
 ![](./screenshot.png)
 
-
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/AKSHUNNA-DHAKAD/project3-nft-preview-card-component-main/tree/main/nft-preview-card-component-main)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -48,14 +44,11 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
 By this challenge I learned about how to create a NFT-PREVIEW-CARD .I used css an html to build this NFT-CARD 
 and  it helped me replenish my concepts for this area.
+
